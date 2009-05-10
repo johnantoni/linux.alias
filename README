@@ -7,15 +7,20 @@ info
 
 install
 -------
-  add this to the bottom of your .bashrc file to install
+  install in your home directory;
 
-    source ~/alias/core.bash
+    git clone git://github.com/indiehead/alias.git
 
-  then reload your aliases to init them
+  then simply run this to add in the aliases file to your .bashrc file;
+
+    echo 'source ~/alias/core.bash' >> ~/.bashrc
+
+  then finally reload your .bashrc file to get the new aliases;
 
     source ~/.bashrc
 
-  after which you can reload your aliases anytime you want with
+  after which you'll now have a ton of alias commands at your fingertips
+  and be able to reload your bash file anytime you want with;
 
     reload
 
