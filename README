@@ -9,7 +9,7 @@ install
 -------
   add this to the bottom of your .bashrc file to install
 
-    source ~/bash_aliases/core.bash
+    source ~/alias/core.bash
 
   then reload your aliases to init them
 
