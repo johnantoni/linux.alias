@@ -1,0 +1,22 @@
+alias
+-----
+
+info
+-----
+  bash aliases for git, thin, rails, ruby, etc, along with colorizing
+
+install
+-------
+  add this to the bottom of your .bashrc file to install
+
+    source ~/bash_aliases/core.bash
+
+  then reload your aliases to init them
+
+    source ~/.bashrc
+
+  after which you can reload your aliases anytime you want with
+
+    reload
+
+  simples :-)
