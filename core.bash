@@ -78,3 +78,8 @@ alias capcold="cap deploy:cold"
 alias capstop="cap deploy:stop"
 alias capstart="cap deploy:start"
 
+# networking
+alias arpscan="sudo arp -an"
+alias nmapinstall="sudo aptitude install nmap"
+alias nmaproot="sudo nmap -sF -O 192.168.1.1-255"
+alias nmapos="sudo nmap -sF -O \$1"
